@@ -1,0 +1,64 @@
+p,span{
+font-family: Arial;
+font-size: 28px;
+}
+.post-link-website, span{
+    color: rgb(119, 112, 112);
+}
+img{
+    width:94px;
+    height:94px;
+    border-radius: 47px;
+}
+.container{
+    display: flex;
+    width:812px;
+}
+.avatar-container{
+    padding-top: 20px;
+}
+.post{
+    display:flex;
+    flex-direction: column;
+}
+.post-caption{
+    padding-left: 21px;
+}
+.user{
+    font-weight: bold;
+    margin-bottom:0;
+}
+span{
+    font-weight:normal;
+}
+.post-about{
+margin-top: 10px;
+line-height:35px;
+}
+.post-link{
+    display: flex;
+    padding-left:21px;
+    
+}
+.post-link-thumbnail{
+    width: 170px;
+    background-color: rgb(214, 212, 212);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.post-link-details{
+    width:410px;
+    border-style:solid;
+    border-width: 2px;
+    border-color:rgb(214, 212, 212);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-left:23px;
+}
+.post-link-website{
+    margin-bottom:10px;
+}
+.post-link-title{
+    line-height: 38px;
+    margin-top: 0;
+}
